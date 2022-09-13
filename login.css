@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 41.5rem;
+}
+
+#login-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 33.3%;
+    height: 40rem;
+    box-shadow: 0 0 10px rgb(18, 17, 17);
+}
+
+.btn{
+    width: 70%;
+    height: 2.6rem;
+    border: solid .1rem grey;
+    border-radius: .3rem;
+    background: white;
+}
+
+.icons{
+    width: 1.5rem;
+}
+
+.btn-google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: .7rem;
+}
+
+.btn-apple{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.division{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line-division{
+    border: solid .01rem rgb(106, 105, 105);
+    width: 8.4rem;
+    height: 0;
+    background-color: rgb(100, 100, 100);
+}
+
+.text-division{
+    padding: 1rem 1rem;
+}
+
+.input-email{
+    width: 70%;
+    height: 2.6rem;
+    border: none;
+    border-radius: .3rem;
+    background-color: white;
+    box-shadow: 0 0 3px grey;
+}
+.input-password{
+    width: 70%;
+    height: 2.6rem;
+    border: none;
+    border-radius: .3rem;
+    background-color: white;
+    box-shadow: 0 0 3px grey;
+}
+
+input[type="text"] {
+    padding-left: 1rem;
+    color: rgb(38, 38, 38);
+    font-size: 1rem;
+}
+
+.btn-continue{
+    background-color: rgb(62, 126, 200);
+    color: white;
+    margin-top: .4rem;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: small;
+}
+
+.checkbox-text{
+    padding: 0 .2rem;
+}
+
+.text-account{
+    padding: 1rem;
+}
+
+.create-account{
+    color: rgb(62, 126, 200);
+    text-decoration: none;
+}
